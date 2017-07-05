@@ -1,0 +1,9 @@
+# Maven output directory
+/target/
+
+# JVM crash logs
+hs_err_pid*
+
+# IntelliJ IDEA
+/.idea/
+/*.iml

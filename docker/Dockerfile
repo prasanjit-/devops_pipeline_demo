@@ -7,26 +7,6 @@ COPY wildfly-8.2.0.Final /opt/wildfly
 # install example app on wildfy
 COPY wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
 
-
-# setup Java
-
-RUN mkdir /opt/java
-
-ADD jdk-8u31-linux-x64.tar.gz /opt/java/
-
-# change dir to Java installation dir
-
-WORKDIR /opt/java/
-
-# setup nvironment variables
-
-RUN update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_31/bin/javac 100
-
-RUN update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_31/bin/java 100
-
- 
-RUN update-alternatives --display java
-
 RUN java -version
 
 

@@ -21,4 +21,8 @@ This demonstration has the following prerequisites:
 Add a Jenkins Build Job As per the below screenshot and build it:
  - Note: Add the build commands from the **jenkins_build_commands.md** file.
 
-![Jenkins build job](http://test.com/images/test.jpg)
+![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/Jenkins01.png)
+![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/Jenkins01.png)
+![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/Jenkins03.png)
+![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/Jenkins04.png)
+![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/Jenkins05.png)

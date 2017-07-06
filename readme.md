@@ -22,7 +22,7 @@ Add a Jenkins Build Job As per the below screenshot and build it:
  - Note: Add the build commands from the **jenkins_build_commands.md** file.
 
 ![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/Jenkins01.png)
-![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins01.png)
+![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins02.png)
 ![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins03.png)
 ![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins04.png)
 ![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins05.png)

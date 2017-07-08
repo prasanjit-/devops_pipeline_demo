@@ -29,16 +29,20 @@ cd ../docker/
 sudo docker build -t devops_pipeline_demo .
 
 
-if [ ! "$(sudo docker ps -q -f name=devops_pipeline_demo)" ]; then
-    if [ "$(sudo docker ps -aq -f status=exited -f name=devops_pipeline_demo)" ]; then
-        # cleanup
-        sudo docker rm -f devops_pipeline_demo
-    fi
+CONTAINER=devops_pipeline_demo
+ 
+RUNNING=$(sudo docker inspect --format="{{ .State.Running }}" $CONTAINER 2> /dev/null)
+
+if [ $? -eq 1 ]; then
+  echo "'$CONTAINER' does not exist."
+else
+  sudo docker rm -f $CONTAINER
+fi
+
     # run your container
     echo ""
 	echo "..... Deployment Phase Started :: Building Docker Container :: ......"
 	sudo docker run -d -p 8180:8080 --name devops_pipeline_demo devops_pipeline_demo
-fi
 
 
 #-Completion

@@ -20,6 +20,7 @@ This demonstration has the following prerequisites:
 ```
 echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo 'Defaults:jenkins !requiretty' >> /etc/sudoers
+setenforce 0 # Else disable SELINUX in /etc/sysconfig/selinux  and reboot
  ```
  **Execution**:
 Add a Jenkins Build Job As per the below screenshot and build it:

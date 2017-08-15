@@ -195,4 +195,15 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+         
+         	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>cobertura-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</reporting>
+         
+         
 </project>

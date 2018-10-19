@@ -17,6 +17,7 @@ This demonstration has the following prerequisites:
  1. Jenkins should be installed with git, maven and shell plugins.
  2. In Jenkins Server install using # yum -y install git maven docker before trying out this demo.
  3. Changes to be made for Jenkins to be able to run docker.
+ 
 ```
 echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo 'Defaults:jenkins !requiretty' >> /etc/sudoers

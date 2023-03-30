@@ -65,7 +65,7 @@
         <filters>
             <!--
                 Ensures that the config.properties file is always loaded from the
-                configuration directory of the active Maven profile. 
+                configuration directory of the active Maven profile.
             -->
             <filter>profiles/${build.profile.id}/config.properties</filter>
         </filters>

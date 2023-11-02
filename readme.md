@@ -1,7 +1,7 @@
-# Demonstration for CI/CD deployment pipeline using Jenkins  
+#### Demonstration for CI/CD deployment pipeline using Jenkins  
 ### | Subscribe & Learn DevOps for Free! [![BINPIPE](https://img.shields.io/badge/YouTube-red.svg)](https://www.youtube.com/channel/UCPTgt4Wo0MAnuzNEEZlk90A)
 ---
-
+<hr>
 `Learning Resources for DevOps, SRE, Cloud & Engineering Management`
 
 [![BINPIPE](https://img.shields.io/badge/BINPIPE-YouTube-red)](https://www.youtube.com/channel/UCPTgt4Wo0MAnuzNEEZlk90A)
@@ -30,7 +30,7 @@ echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo 'Defaults:jenkins !requiretty' >> /etc/sudoers
 setenforce 0 # Else disable SELINUX in /etc/sysconfig/selinux  and reboot
  ```
- **Execution**:
+ ***Execution**:
 Add a Jenkins Build Job As per the below screenshot and build it:
  - Note: Add the build commands from the **jenkins_build_commands.md** file.
 
